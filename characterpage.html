@@ -1,53 +1,54 @@
-<div style="font-family:'Malgun Gothic', Helvetica Neue', Arial, sans-serif; font-weight:500;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three Widgets</title>
+</head>
+<body style="margin:0; padding:20px; font-family:'Malgun Gothic', 'Helvetica Neue', Arial, sans-serif; font-weight:500;">
 
   <div style="max-width:1100px; margin:0 auto;">
 
     <!-- Row: widgets -->
-    <div style="display:table; width:100%; table-layout:fixed;">
+    <div style="display:flex; gap:10px; width:100%;">
 
-      <!-- WIDGET 1: Playlist -->
-      <div style="display:table-cell; width:33.33%; padding:10px; vertical-align:top;">
-        <div style="background:#d2e0ff; border-radius:18px; padding:14px; height:360px; box-sizing:border-box; display:flex; flex-direction:column; justify-content:space-between;">
-          <!-- header -->
-         <div style="font-family:'Malgun Gothic'; font-size:1.1rem; margin-bottom:18px; flex-shrink:0; margin-left:8px;">
-      Playlist:
-    </div>
+      <!-- WIDGET 1: Playlist - CHANGE WIDTH HERE -->
+      <div style="width:40%; flex-shrink:0; padding-right:30px">
+        <div style="background:#d2e0ff; border-radius:18px; padding:14px; height:360px; box-sizing:border-box; display:flex; flex-direction:column; justify-content:space-evenly;">
 
           <!-- track list -->
-          <div style="flex:1; display:flex; flex-direction:column; gap:8px; overflow:hidden;">
+          <div>
 
             <!-- Track 1 -->
-            <a href="SPOTIFY_LINK_1"
-               style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
+            <a href="#" style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
               <div style="background:#f7f7f7; border-radius:10px;
-                          padding:6px 10px; display:flex; align-items:center;width:98.5%;
-                          box-shadow:4px 4px 0px rgba(0,0,0,0.25);">
-                <div style="width:40px; height:40px; border-radius:8px;
-                            overflow:hidden; margin-right:8px;">
+                          padding:6px 10px; display:flex; align-items:center;
+                          box-shadow:4px 4px 0px rgba(0,0,0,0.25); box-sizing:border-box;">
+                <div style="width:40px; height:40px; border-radius:8px; flex-shrink:0;
+                            overflow:hidden; margin-right:8px; background:#ddd; position:relative;">
                   <img src=""
-                       alt=""
-                       style="width:100%; height:100%; object-fit:cover; display:block;">
+                       alt="Album art"
+                       style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; display:block;">
                 </div>
-                <div style="flex:1; font-size:0.85rem;">
-                  <div style="font-weight:600;">Track 2 title</div>
-                  <div style="font-size:0.75rem; color:#555;">Artist name</div>
+                <div style="flex:1; font-size:0.85rem; min-width:0;">
+                  <div style="font-weight:600;">Track 1 title</div>
+                  <div style="font-size:0.75rem; color:#555;">Artist Name</div>
                 </div>
               </div>
             </a>
 
             <!-- Track 2 -->
-            <a href="SPOTIFY_LINK_2"
-               style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
+            <a href="#" style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
               <div style="background:#f7f7f7; border-radius:10px;
-                          padding:6px 10px; display:flex; align-items:center;width:98.5%;
-                          box-shadow:4px 4px 0px rgba(0,0,0,0.25);">
-                <div style="width:40px; height:40px; border-radius:8px;
-                            overflow:hidden; margin-right:8px;">
-                  <img src="TRACK2_IMAGE_URL"
-                       alt=""
-                       style="width:100%; height:100%; object-fit:cover; display:block;">
+                          padding:6px 10px; display:flex; align-items:center;
+                          box-shadow:4px 4px 0px rgba(0,0,0,0.25); box-sizing:border-box;">
+                <div style="width:40px; height:40px; border-radius:8px; flex-shrink:0;
+                            overflow:hidden; margin-right:8px; background:#ddd; position:relative;">
+                  <img src=""
+                       alt="Album art"
+                       style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; display:block;">
                 </div>
-                <div style="flex:1; font-size:0.85rem;">
+                <div style="flex:1; font-size:0.85rem; min-width:0;">
                   <div style="font-weight:600;">Track 2 title</div>
                   <div style="font-size:0.75rem; color:#555;">Artist name</div>
                 </div>
@@ -55,18 +56,17 @@
             </a>
 
             <!-- Track 3 -->
-            <a href="SPOTIFY_LINK_3"
-               style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
+            <a href="#" style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
               <div style="background:#f7f7f7; border-radius:10px;
-                          padding:6px 10px; display:flex; align-items:center;width:98.5%;
-                          box-shadow:4px 4px 0px rgba(0,0,0,0.25);">
-                <div style="width:40px; height:40px; border-radius:8px;
-                            overflow:hidden; margin-right:8px;">
-                  <img src="TRACK3_IMAGE_URL"
-                       alt=""
-                       style="width:100%; height:100%; object-fit:cover; display:block;">
+                          padding:6px 10px; display:flex; align-items:center;
+                          box-shadow:4px 4px 0px rgba(0,0,0,0.25); box-sizing:border-box;">
+                <div style="width:40px; height:40px; border-radius:8px; flex-shrink:0;
+                            overflow:hidden; margin-right:8px; background:#ddd; position:relative;">
+                  <img src=""
+                       alt="Album art"
+                       style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; display:block;">
                 </div>
-                <div style="flex:1; font-size:0.85rem;">
+                <div style="flex:1; font-size:0.85rem; min-width:0;">
                   <div style="font-weight:600;">Track 3 title</div>
                   <div style="font-size:0.75rem; color:#555;">Artist name</div>
                 </div>
@@ -74,18 +74,17 @@
             </a>
 
             <!-- Track 4 -->
-            <a href="SPOTIFY_LINK_4"
-               style="display:block; text-decoration:none; color:inherit;">
+            <a href="#" style="display:block; text-decoration:none; color:inherit; margin-bottom:8px;">
               <div style="background:#f7f7f7; border-radius:10px;
-                          padding:6px 10px; display:flex; align-items:center;width:98.5%;
-                          box-shadow:4px 4px 0px rgba(0,0,0,0.25);">
-                <div style="width:40px; height:40px; border-radius:8px;
-                            overflow:hidden; margin-right:8px;">
-                  <img src="TRACK4_IMAGE_URL"
-                       alt=""
-                       style="width:100%; height:100%; object-fit:cover; display:block;">
+                          padding:6px 10px; display:flex; align-items:center;
+                          box-shadow:4px 4px 0px rgba(0,0,0,0.25); box-sizing:border-box;">
+                <div style="width:40px; height:40px; border-radius:8px; flex-shrink:0;
+                            overflow:hidden; margin-right:8px; background:#ddd; position:relative;">
+                  <img src=""
+                       alt="Album art"
+                       style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; display:block;">
                 </div>
-                <div style="flex:1; font-size:0.85rem;">
+                <div style="flex:1; font-size:0.85rem; min-width:0;">
                   <div style="font-weight:600;">Track 4 title</div>
                   <div style="font-size:0.75rem; color:#555;">Artist name</div>
                 </div>
@@ -96,44 +95,43 @@
         </div>
       </div>
 
-<!-- WIDGET 2: Instrument (fit, no crop) -->
-<div style="display:table-cell; width:30%; padding:10px; vertical-align:top;">
-  <div style="background:#e3dcd2; border-radius:18px; padding:14px;
-              text-align:center; height:360px; box-sizing:border-box;">
-    <div style="font-family:'Malgun Gothic'; font-size:1.1rem; margin-bottom:8px;">
-      Instrument:
-    </div>
-    <div style="width:100%; height:calc(100% - 70px); border-radius:14px;
-                overflow:hidden; margin-bottom:8px; display:flex; align-items:center; justify-content:center; background:#e3dcd2;">
-      <img src="https://raw.githubusercontent.com/presidentunicorn8/toyhouseAssetsKapowdraws/refs/heads/main/uprightbassDome.png"
-           alt=""
-           style="max-width:100%; max-height:100%; object-fit:contain; display:block;">
-    </div>
-    <div style="font-family:'Malgun Gothic'; font-size:1rem; font-weight:600;">
-      Upright Bass
-    </div>
-  </div>
-</div>
+      <!-- WIDGET 2: Instrument - CHANGE WIDTH HERE -->
+      <div style="width:28%; flex-shrink:0; padding-right:30px">
+        <div style="background:#e3dcd2; border-radius:18px; padding:14px;
+                    text-align:center; height:360px; box-sizing:border-box; display:flex; flex-direction:column;">
+          <div style="font-family:'Malgun Gothic'; font-size:1.1rem; margin-bottom:8px; flex-shrink:0;">
+            Instrument:
+          </div>
+          <div style="flex:1; border-radius:14px; display:flex; align-items:center; 
+                      justify-content:center; margin-bottom:8px; min-height:0;">
+            <img src="https://raw.githubusercontent.com/presidentunicorn8/toyhouseAssetsKapowdraws/refs/heads/main/uprightbassDome.png"
+                 alt="Upright Bass"
+                 style="max-width:100%; max-height:100%; object-fit:contain; display:block;">
+          </div>
+          <div style="font-family:'Malgun Gothic'; font-size:1rem; font-weight:600; flex-shrink:0;">
+            Upright Bass
+          </div>
+        </div>
+      </div>
 
-
-<!-- WIDGET 3: Bird -->
-<div style="display:table-cell; width:25%; padding:10px; vertical-align:top;">
-  <div style="background:#dde7ff; border-radius:18px; padding:14px;
-              text-align:center; height:360px; box-sizing:border-box;">
-    <div style="width:90%; height:calc(100% - 70px); border-radius:18px;
-                border:4px solid #ffffff; overflow:hidden; margin-bottom:8px; display:flex; margin-left:5%; margin-right:5%; margin-top:5%">
-      <img src="https://i.pinimg.com/736x/a2/59/b5/a259b5166754707e2e7f01784343bf3b.jpg"
-           alt=""
-           style="width:100%; height:100%; object-fit:cover; display:block;">
-    </div>
-    <div style="font-family:'Malgun Gothic'; font-size:1.1rem;">
-      Brown Heron
-    </div>
-  </div>
-</div>
-
-
+      <!-- WIDGET 3: Bird - CHANGE WIDTH HERE -->
+      <div style="width:25%; flex-shrink:0;">
+        <div style="background:#dde7ff; border-radius:18px; padding:14px;
+                    text-align:center; height:360px; box-sizing:border-box; display:flex; flex-direction:column; align-items:center;">
+          <div style="flex:1; width:90%; border-radius:18px; border:8px solid #ffffff; 
+                      overflow:hidden; margin-bottom:8px; margin-top:20px; min-height:0;">
+            <img src="https://i.pinimg.com/736x/a2/59/b5/a259b5166754707e2e7f01784343bf3b.jpg"
+                 alt="Brown Heron"
+                 style="width:100%; height:100%; object-fit:cover; display:block;">
+          </div>
+          <div style="font-family:'Malgun Gothic'; font-size:1.1rem; flex-shrink:0;">
+            Brown Heron
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
-</div>
+
+</body>
+</html>
